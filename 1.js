@@ -40,4 +40,18 @@ function forestHikeDecision(weather, energyLevel, daylight) {
     return "Assess the situation";
 }
 
+console.log("Resultado 1:", forestHikeDecision("sunny", 20, true)); 
+// Salida esperada: "Take a break"
+
+console.log("Resultado 2:", forestHikeDecision("sunny", 85, true)); 
+// Salida esperada: "Continue hiking"
+
+console.log("Resultado 3:", forestHikeDecision("rainy", 50, false)); 
+// Salida esperada: "Set up camp"
+
+console.log("Resultado 4:", forestHikeDecision("foggy", 60, true)); 
+// Salida esperada: "Proceed with caution"
+
+console.log("Resultado 5:", forestHikeDecision("cloudy", 55, true)); 
+// Salida esperada: "Assess the situation"
 
